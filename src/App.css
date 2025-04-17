@@ -1,0 +1,12 @@
+.blinking-cursor {
+    font-weight: bold;
+    color: #4b5563;
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
